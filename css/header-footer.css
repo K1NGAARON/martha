@@ -1,18 +1,9 @@
 .header {
-    background-color: var(--white);
+    background-color: transparent;
     min-height: unset;
     position: absolute;
     z-index: 99;
     transition: background-color 200ms linear;
-}
-
-.topbar {
-    display: none;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: var(--light-grey);
 }
 
 .header .button-wrapper {
@@ -26,29 +17,6 @@
     color: var(--white);
     background-color: var(--primary);
     transition: var(--transition);
-}
-
-.topbar.active {
-    display: flex;
-}
-
-.topbar .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-    padding-left: 30px;
-    width: 100%;
-    max-width: 1600px;
-}
-
-.topbar .wrapper p,
-.topbar .wrapper a {
-    color: var(--black);
-    font-weight: 400;
-    font-size: 14px;
 }
 
 .header.active {
@@ -69,7 +37,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 125px;
+    width: 65px;
 }
 
 .header .nav-logo,
@@ -92,7 +60,7 @@
 }
 
 .header .container .nav {
-    color: var(--black);
+    color: var(--white);
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
