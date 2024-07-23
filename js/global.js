@@ -3,6 +3,7 @@ $(document).scroll(function () {
 
     if ($(this).scrollTop() > header.height()) {
         header.addClass('active');
+        
     } else {
         header.removeClass('active');
     }
