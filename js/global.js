@@ -1,23 +1,39 @@
-$(document).scroll(function () {
-    const header = $('.header');
+const menuToggle = document.querySelector('#menu-toggle');
+const regularNav = document.querySelector('.header');
+const menuContent = document.querySelector('.navigation-box');
+const overlay = document.querySelector('.overlay.header-toggle');
 
-    if ($(this).scrollTop() > header.height()) {
-        header.addClass('active');
-        
+function disableScroll() {
+    document.body.classList.add("stop-scrolling");
+}
+
+function enableScroll() {
+    document.body.classList.remove("stop-scrolling");
+}
+
+function closeMenu(e) {
+    $(regularNav).removeClass('toggled');
+    $(menuToggle).removeClass('open'); 
+    $(menuContent).removeClass('active');
+    $(overlay).removeClass('active');
+    enableScroll();
+}
+
+function openMenu(e) {
+    if ($(menuToggle).hasClass('open')) {
+        closeMenu();
     } else {
-        header.removeClass('active');
+        window.scrollTo(0, 0);
+        $(regularNav).addClass('toggled');
+        $(menuContent).addClass('active');
+        $(overlay).addClass('active');
+        $(menuToggle).addClass('open');
+        disableScroll();
     }
-});
+}
 
-$("#menu-toggle").click(function() {
-    $(".small-menu-wrapper").toggle("active");
-});
-
-function closeMenu() {
-    $('.small-menu-wrapper').css('display', 'none');
-};
-
-$('.small-menu-content .nav').click(closeMenu);
+$(menuToggle).click(openMenu);
+$('#close-icon').click(closeMenu);
 
 let animationStyle = "slideUp";
 let animationTarget = ".animate";
