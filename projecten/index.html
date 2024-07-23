@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Een greep uit onze projecten | Hiele Defreyne
+    </title>
+    <meta name="description" content="Ontdek een greep uit onze projecten">
+
+    <meta property="og:image" content="https://hieledefreyne.com/home/img/banner-2.jpg">
+
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/header-footer.css">
+
+    <link rel="stylesheet" href="/projecten/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<header>
+    <div class="section header" id="header">
+        <div class="row">
+            <div class="container">
+                <a class="nav-logo" href="/">
+                    <img class="logo" src="/assets/logo/logo.png" alt="Hiele Defreyne Logo">
+                </a>
+
+                <a class="icon" id="menu-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="navigation-box">
+            <i class="fa-solid fa-x close" id="close-icon"></i>
+            <div class="navigation-content">
+                <a href="/" class="nav">Home</a> 
+                <a href="/over-ons/" class="nav">Over ons</a> 
+                <a href="/projecten/" class="nav">Realisaties</a> 
+                <a href="/contact/" class="nav">Contact</a> 
+            </div>
+        </div>
+    </div>
+</header>
+   
+<div class="section banner">
+    <div class="row flex-col animate center">
+        <h1>
+           Een greep uit onze projecten
+        </h1>
+    </div>
+    <div class="overlay"></div>
+</div>
+
+<div class="section black gallery">
+    <div class="row flex-col center animate">
+        <div class="wrapper project-wrapper" id="project-wrapper"></div>
+    </div>
+</div>
+
+<div class="section black contact">
+    <div class="row flex-col center animate">
+        <p>
+            Ik neem graag contact op als
+        </p>
+        <div class="form-wrapper">
+            <form action="https://formspree.io/f/xwkdaqjw" method="post" class="validate contact-form" target="_blank" novalidate>
+                <div class="dots">
+                    <input type="checkbox" class="dot" name="Particulier" id="Particulier">
+                    <label for="Particulier">Particulier</label><br>
+                    <input type="checkbox" class="dot" name="Architect" id="Architect">
+                    <label for="Architect">Architect</label><br><br>
+                    <input type="checkbox" class="dot" name="Bedrijf" id="Bedrijf">
+                    <label for="Bedrijf">Bedrijf</label><br>
+                </div>
+                <input type="text" value="" name="first-name" placeholder="Jouw naam*" required>
+                <input type="email" value="" name="email" placeholder="Emailadres*" required>
+                <input type="text" value="" name="phone-number" placeholder="GSM nummer*" required>
+                <input type="text" value="" name="message"placeholder="Jouw bericht">
+                <input type="submit" value="Verstuur" name="Verstuur" class="btn">
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="section footer" id="footer">
+        <div class="row">
+            <div class="col">
+                <p class="footer-logo">
+                    <img class="logo" src="/assets/logo/logo.png" alt="Hiele Defreyne Logo">
+                </p>
+            </div>
+            <div class="col">
+                <p class="legal">
+                    Hiele & Defreyne 
+                    <br>
+                    8400 Oostende
+                    <br>
+                    BE 0556.634.696
+                </p>
+                <div class="socials-wrapper">
+                    <a target="_blank" href="https://www.facebook.com/hieledefreyne">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/hieledefreyne_schilderwerken/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="made-by">
+            <p>
+                Website by <a href="https://blitz-media.io" target="_blank">Blitz Media</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+    <script src="/projecten/js/script.js"></script>
+</body>
+</html>

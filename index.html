@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/home/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -100,7 +101,7 @@
         <h2>
             Waarom kiezen voor Martha?
         </h2>
-        <p class="width-60">
+        <p class="width-60 center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore! Voluptatum voluptatibus fugit molestiae error, iste aut quaerat. Beatae placeat quo veniam ex. Exercitationem voluptas repudiandae numquam incidunt alias magnam, ullam fuga dolorum laboriosam iste sint ut quaerat, illum debitis.
         </p>
     </div>
@@ -165,9 +166,62 @@
     </div>
 </div>
 
-<div class="section projects">
+<div class="section projects black">
     <div class="row flex-col center animate">
-        <span>hier komen de proejcten slider</span>
+        <div class="wrapper projects-wrapper splide" id="image-carousel">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide" id="project-bellegem">
+                        <img src="/projecten/bellegem/img/banner.jpg" alt="Project Bellegem">
+                        <div class="headline">
+                            <a href="/projecten/bellegem/" class="read-more">
+                                Project Bellegem
+                            </a>
+                        </div>
+                        <div class="overlay"></div>
+                    </li>
+                    <li class="splide__slide" id="project-gistel">
+                        <img src="/projecten/gistel/img/banner.jpg" alt="Project Gistel">
+                        <div class="headline">
+                            <a href="/projecten/gistel/" class="read-more">
+                                Project Gistel
+                            </a>
+                        </div>
+                        <div class="overlay"></div>
+                    </li>
+                    <li class="splide__slide" id="project-kortrijk">
+                        <img src="/projecten/kortrijk/img/banner.jpg" alt="Project Kortrijk">
+                        <div class="headline">
+                            <a href="/projecten/kortrijk/" class="read-more">
+                                Project Kortrijk
+                            </a>
+                        </div>
+                        <div class="overlay"></div>
+                    </li>
+                    <li class="splide__slide" id="project-kruiskerke">
+                        <img src="/projecten/kruiskerke/img/banner.jpg" alt="Project Kruiskerke">
+                        <div class="headline">
+                            <a href="/projecten/kruiskerke/" class="read-more">
+                                Project Kruiskerke
+                            </a>
+                        </div>
+                        <div class="overlay"></div>
+                    </li>
+                    <li class="splide__slide" id="project-roeselare">
+                        <img src="/projecten/roeselare/img/banner.jpg" alt="Project Roeselare">
+                        <div class="headline">
+                            <a href="/projecten/roeselare/" class="read-more">
+                                Project Roeselare
+                            </a>
+                        </div>
+                        <div class="overlay"></div>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <a href="/projecten/" class="btn">
+            Toon meer projecten
+        </a>
     </div>
 </div>
 
@@ -283,6 +337,7 @@
 <div id="overlay"></div>
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="/js/global.js"></script>
     <script src="/home/js/script.js"></script>
 </body>

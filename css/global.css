@@ -61,6 +61,10 @@ p.width-60 {
     margin: 0 auto;
 }
 
+p.center {
+    text-align: center;
+}
+
 img {
     width: 100%;
     height: auto;
