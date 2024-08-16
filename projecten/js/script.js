@@ -2,31 +2,31 @@ const projects = [
     {
         title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/bellegem/",
+        link: "/projecten/template/",
         tag: "totaalrenovatie",
     },
     {
         title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/gistel/",
+        link: "/projecten/template/",
         tag: "vloerwerken",
     },
     {
         title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/kortrijk/",
+        link: "/projecten/template/",
         tag: "dakwerken",
     },
     {
         title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/kruiskerke/",
+        link: "/projecten/template/",
         tag: "dakwerken",
     },
     {
         title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/roeselare/",
+        link: "/projecten/template/",
         tag: "totaalrenovatie",
     },
 ];
@@ -36,7 +36,7 @@ function createCards(e) {
 
     const cards = projects.map(item => {
         return `
-            <a class="project ${item.tag}" href="${item.url}">
+            <a class="project ${item.tag}" href="${item.link}">
                 <div class="image-wrapper">
                     <img src="${item.img}" alt="${item.title}">
                 </div>
