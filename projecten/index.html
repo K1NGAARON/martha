@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header-footer.css">
     <link rel="stylesheet" href="/home/css/style.css">
+    <link rel="stylesheet" href="/projecten/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
@@ -74,15 +75,23 @@
     <div class="overlay"></div>
 </div>
 
-<div class="section filters">
-    <div class="row flex-col center animate">
-
-    </div>
-</div>
-
 <div class="section projects">
     <div class="row flex-col center animate">
-
+        <div class="wrapper filters-wrapper">
+            <a class="filter-btn active" id="all">
+                Alles
+            </a>
+            <a class="filter-btn" id="filter-1">
+                Filter 1
+            </a>
+            <a class="filter-btn" id="filter-2">
+                Filter 2
+            </a>
+            <a class="filter-btn" id="filter-3">
+                Filter 3
+            </a>
+        </div>
+        <div class="wrapper projects-wrapper" id="content"></div>
     </div>
 </div>
 
@@ -192,5 +201,6 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="/js/global.js"></script>
+    <script src="/projecten/js/script.js"></script>
 </body>
 </html>
