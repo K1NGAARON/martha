@@ -1,0 +1,22 @@
+.section .gallery-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.section .gallery-wrapper .item {
+    flex: 0 1 30%;
+    overflow: hidden;
+}
+
+.section .gallery-wrapper .item:hover img {
+    transform: scale(1.05);
+    transition: var(--transition);
+}
+
+.section .gallery-wrapper .item img {
+    transition: var(--transition);
+}
+
+.section .row.mt-0 {
+    margin: 60px auto 0 auto;
+}
