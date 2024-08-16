@@ -1,33 +1,33 @@
 const projects = [
     {
-        title: "Project 1",
+        title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
         link: "/projecten/bellegem/",
-        tag: "filter-1",
+        tag: "totaalrenovatie",
     },
     {
-        title: "Project 2",
+        title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
         link: "/projecten/gistel/",
-        tag: "filter-1",
+        tag: "vloerwerken",
     },
     {
-        title: "Project 3",
+        title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
         link: "/projecten/kortrijk/",
-        tag: "filter-3",
+        tag: "dakwerken",
     },
     {
-        title: "Project 4",
+        title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
         link: "/projecten/kruiskerke/",
-        tag: "filter-2",
+        tag: "dakwerken",
     },
     {
-        title: "Project 5",
+        title: "Totaalrenovatie project regio Antwerpen",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
         link: "/projecten/roeselare/",
-        tag: "filter-3",
+        tag: "totaalrenovatie",
     },
 ];
 
@@ -36,20 +36,18 @@ function createCards(e) {
 
     const cards = projects.map(item => {
         return `
-            <div class="item card ${item.tag}">
-                <img src="${item.img}" alt="${item.title}">
-                <div class="content">
-                    <h3>
-                        ${item.title}
-                    </h3>
-                    <p>
-                        ${item.body}
-                    </p>
-                    <a href="${item.url}" class="btn">
-                        Lees meer
-                    </a>
+            <a class="project ${item.tag}" href="${item.url}">
+                <div class="image-wrapper">
+                    <img src="${item.img}" alt="${item.title}">
                 </div>
-            </div>
+                
+                <div class="content">
+                    <p class="heading">
+                        <span class="tag">${item.tag}</span> | 
+                        <span class="title">${item.title}</span>
+                    </p>
+                </div>
+            </a>
         `;
     }).join('');
 
@@ -60,12 +58,12 @@ function filterContent(e) {
     $('.filter-btn').removeClass('active');
     $(this).addClass('active');
 
-    $('.projects-wrapper .card').fadeOut();
+    $('.projects-wrapper .project').fadeOut();
 
     let activeFilter = $(this).attr('id');
 
     if (activeFilter === 'all') {
-        $('.projects-wrapper .card').fadeIn();
+        $('.projects-wrapper .project').fadeIn();
     } else {
         $('.' + activeFilter).fadeIn();
     }
