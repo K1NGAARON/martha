@@ -57,3 +57,9 @@
     color: var(--white);
     background-color: var(--black);
 }
+
+@media (max-width: 560px) {
+    .projects-wrapper .project {
+        flex: 1 0 45%;
+    }
+}
