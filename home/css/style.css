@@ -170,18 +170,23 @@
 
 .projects-wrapper .item .overlay {
     opacity: 0;
-    background-color: var(--white);
+    background-color: var(--black);
     transition: var(--transition);
 }
 
 .projects-wrapper .item:hover .overlay {
-    opacity: 1;
+    opacity: 0.6;
     transition: var(--transition);
 }
 
 .projects-wrapper .item:hover .content {
     display: flex;
 }
+
+.projects-wrapper .item:hover .content h3 {
+    color: var(--white);
+}
+
 
 .dots {
     display: flex;
