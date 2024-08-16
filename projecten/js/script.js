@@ -1,35 +1,30 @@
 function addProjects(e) {
     const projects = [
         {
-            title: "Project Bellegem",
+            title: "Project 1",
             img: "/projecten/bellegem/img/banner.jpg",
             link: "/projecten/bellegem/",
         },
         {
-            title: "Project Gistel",
+            title: "Project 2",
             img: "/projecten/gistel/img/banner.jpg",
             link: "/projecten/gistel/",
         },
         {
-            title: "Project Kortrijk",
+            title: "Project 3",
             img: "/projecten/kortrijk/img/banner.jpg",
             link: "/projecten/kortrijk/",
         },
         {
-            title: "Project Kruiskerke",
+            title: "Project 4",
             img: "/projecten/kruiskerke/img/banner.jpg",
             link: "/projecten/kruiskerke/",
         },
         {
-            title: "Project Roeselare",
+            title: "Project 5",
             img: "/projecten/roeselare/img/banner.jpg",
             link: "/projecten/roeselare/",
         },
-        // {
-        //     title: "Project Sint-Joris",
-        //     img: "/projecten/img/sint-joris.jpg",
-        //     link: "/projecten/project-voorbeeld/",
-        // },
     ];
 
     const target = document.querySelector('#project-wrapper');
