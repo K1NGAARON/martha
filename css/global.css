@@ -445,6 +445,22 @@ img.bg {
     margin-top: 10px;
 }
 
+.slideUp {
+    animation: slide-up 1s ease 0s 1 normal forwards;
+}
+
+@keyframes slide-up {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 @media all and (max-width: 540px) {
     .cookie-banner-wrapper {
         width: 100%;
@@ -484,26 +500,14 @@ img.bg {
     .form-wrapper input {
         font-size: 14px;
     }
+
+    p.width-60 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1000px) {
     .form-wrapper {
         width: 100%;
     }
-}
-
-.slideUp {
-    animation: slide-up 1s ease 0s 1 normal forwards;
-}
-
-@keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateY(250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
 }

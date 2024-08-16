@@ -20,3 +20,9 @@
 .section .row.mt-0 {
     margin: 60px auto 0 auto;
 }
+
+@media (max-width: 560px) {
+    .section .gallery-wrapper .item {
+        flex: 0 1 45%;
+    }
+}
