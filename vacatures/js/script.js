@@ -2,31 +2,31 @@ const projects = [
     {
         title: "Bouwvakker met ervaring in xyz",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/bellegem/",
+        link: "/vacatures/template/",
         tag: "job-3",
     },
     {
         title: "Bouwvakker met ervaring in xyz",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/gistel/",
+        link: "/vacatures/template/",
         tag: "job-2",
     },
     {
         title: "Bouwvakker met ervaring in xyz",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/kortrijk/",
+        link: "/vacatures/template/",
         tag: "job-3",
     },
     {
         title: "Bouwvakker met ervaring in xyz",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/kruiskerke/",
+        link: "/vacatures/template/",
         tag: "job-1",
     },
     {
         title: "Bouwvakker met ervaring in xyz",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/projecten/roeselare/",
+        link: "/vacatures/template/",
         tag: "job-1",
     },
 ];
@@ -36,7 +36,7 @@ function createCards(e) {
 
     const cards = projects.map(item => {
         return `
-            <a class="project ${item.tag}" href="${item.url}">
+            <a class="project ${item.tag}" href="${item.link}">
                 <div class="image-wrapper">
                     <img src="${item.img}" alt="${item.title}">
                 </div>
