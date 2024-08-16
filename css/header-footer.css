@@ -110,7 +110,7 @@
 }
 
 .navigation-box .navigation-content .nav:hover {
-    color: var(--primary);
+    color: var(--white);
     transition: var(--transition);
 }
 
