@@ -40,7 +40,6 @@ function createCards(e) {
                 <div class="image-wrapper">
                     <img src="${item.img}" alt="${item.title}">
                 </div>
-                
                 <div class="content">
                     <p class="heading">
                         <span class="tag">${item.tag}</span> | 
