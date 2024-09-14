@@ -35,15 +35,22 @@ function openMenu(e) {
 $(menuToggle).click(openMenu);
 $('#close-icon').click(closeMenu);
 
-let animationStyle = "slideUp";
-let animationTarget = ".animate";
+
+let animationTarget = ".animate .col img";
 let firstTime = true;
 
-// SLIDE UP ROWS IN VIEWPORT
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            $(entry.target).addClass(animationStyle);
+            // Check if the image is on the left or right side of the screen
+            const imagePosition = $(entry.target).offset().left + $(entry.target).outerWidth() / 2;
+            const screenMidPoint = $(window).width() / 2;
+
+            if (imagePosition < screenMidPoint) {
+                $(entry.target).addClass("slideInFromLeft");
+            } else {
+                $(entry.target).addClass("slideInFromRight");
+            }
         }
     });
 });

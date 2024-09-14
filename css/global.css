@@ -444,20 +444,34 @@ img:not(.logo) {
     margin-top: 10px;
 }
 
-.slideUp {
-    animation: slide-up 1s ease 0s 1 normal forwards;
+.slideInFromLeft {
+    animation: slide-in-left 1s ease 0s 1 normal forwards;
 }
 
-@keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateY(250px);
-	}
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+.slideInFromRight {
+    animation: slide-in-right 1s ease 0s 1 normal forwards;
+}
+
+@keyframes slide-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @media all and (max-width: 540px) {
