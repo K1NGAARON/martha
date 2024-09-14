@@ -15,10 +15,12 @@
 .banner .row {
     color: var(--white);
     z-index: 10;
+    height: 90vh;
 }
 
 .banner.section .row.flex-col.center {
     gap: 0;
+    justify-content: flex-end;
 }
 
 .banner.section .btn {
