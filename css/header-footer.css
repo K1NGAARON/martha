@@ -89,6 +89,29 @@
     transition: opacity 0.5s ease;
 }
 
+.navigation-box .nav-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-box .nav-row .toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: var(--white);
+}
+
+.navigation-box .nav-row .toggle p {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .navigation-box.active {
     opacity: 1;
     display: flex;
