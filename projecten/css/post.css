@@ -6,6 +6,7 @@
 .section .gallery-wrapper .item {
     flex: 0 1 30%;
     overflow: hidden;
+    border-radius: var(--borderRadius);
 }
 
 .section .gallery-wrapper .item:hover img {
