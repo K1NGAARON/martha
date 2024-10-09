@@ -445,7 +445,7 @@ img:not(.logo) {
 }
 
 .slideInFromLeft {
-    animation: slide-in-left 1s ease 0s 1 normal forwards;
+    animation: slide-in-left 1.25s ease-in-out, opacity 1.25s ease-in-out;
 }
 
 @keyframes slide-in-left {
@@ -460,7 +460,7 @@ img:not(.logo) {
 }
 
 .slideInFromRight {
-    animation: slide-in-right 1s ease 0s 1 normal forwards;
+    animation: slide-in-right 1.25s ease-in-out, opacity 1.25s ease-in-out;
 }
 
 @keyframes slide-in-right {

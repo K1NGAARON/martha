@@ -1,0 +1,15 @@
+.job-offer .row {
+    align-items: flex-start;
+}
+
+.image-outer-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.image-outer-wrapper .image-wrapper {
+    flex: 1 0 40%;
+    display: flex;
+}
