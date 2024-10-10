@@ -448,6 +448,22 @@ img:not(.logo) {
     animation: slide-in-left 1.25s ease-in-out, opacity 1.25s ease-in-out;
 }
 
+.socials-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials-wrapper a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socials-wrapper i {
+    font-size: 30px;
+}
+
 @keyframes slide-in-left {
     0% {
         opacity: 0;
