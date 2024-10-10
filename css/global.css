@@ -444,10 +444,6 @@ img:not(.logo) {
     margin-top: 10px;
 }
 
-.slideInFromLeft {
-    animation: slide-in-left 1.25s ease-in-out, opacity 1.25s ease-in-out;
-}
-
 .socials-wrapper {
     display: flex;
     flex-direction: column;
@@ -462,6 +458,10 @@ img:not(.logo) {
 
 .socials-wrapper i {
     font-size: 30px;
+}
+
+.slideInFromLeft {
+    animation: slide-in-left 1.25s ease-in-out, opacity 1.25s ease-in-out;
 }
 
 @keyframes slide-in-left {
