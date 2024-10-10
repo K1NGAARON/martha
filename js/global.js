@@ -11,7 +11,12 @@ function enableScroll() {
     document.body.classList.remove("stop-scrolling");
 }
 
+function toggleHeading() {
+    $('.section h1').toggle();
+}
+
 function closeMenu(e) {
+    toggleHeading();
     $(regularNav).removeClass('toggled');
     $(menuToggle).removeClass('open'); 
     $(menuContent).removeClass('active');
@@ -23,6 +28,7 @@ function openMenu(e) {
     if ($(menuToggle).hasClass('open')) {
         closeMenu();
     } else {
+        toggleHeading();
         window.scrollTo(0, 0);
         $(regularNav).addClass('toggled');
         $(menuContent).addClass('active');

@@ -184,6 +184,7 @@
 .footer .row {
     min-height: unset;
     justify-content: space-between;
+    align-items: flex-start;
     margin: 30px auto;
     padding: 10px 30px;
 }
