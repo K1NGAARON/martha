@@ -42,20 +42,26 @@ $(menuToggle).click(openMenu);
 $('#close-icon').click(closeMenu);
 
 
-let animationTarget = ".animate .col img";
+let animationTarget = ".animate .col img, h1.slide-in";
 let firstTime = true;
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            // Check if the image is on the left or right side of the screen
-            const imagePosition = $(entry.target).offset().left + $(entry.target).outerWidth() / 2;
-            const screenMidPoint = $(window).width() / 2;
+            // Check if it's an image or an h1 element
+            if ($(entry.target).is('img')) {
+                // Check if the image is on the left or right side of the screen
+                const imagePosition = $(entry.target).offset().left + $(entry.target).outerWidth() / 2;
+                const screenMidPoint = $(window).width() / 2;
 
-            if (imagePosition < screenMidPoint) {
-                $(entry.target).addClass("slideInFromLeft");
-            } else {
-                $(entry.target).addClass("slideInFromRight");
+                if (imagePosition < screenMidPoint) {
+                    $(entry.target).addClass("slideInFromLeft");
+                } else {
+                    $(entry.target).addClass("slideInFromRight");
+                }
+            } else if ($(entry.target).is('h1')) {
+                // Apply the slide-up animation to h1
+                $(entry.target).addClass("slideInFromBottom");
             }
         }
     });

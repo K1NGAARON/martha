@@ -490,6 +490,21 @@ img:not(.logo) {
     }
 }
 
+.slideInFromBottom {
+    animation: slide-in-bottom 1.25s ease-in-out, opacity 1.25s ease-in-out;
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media all and (max-width: 540px) {
     .cookie-banner-wrapper {
         width: 100%;
