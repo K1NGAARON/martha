@@ -1,3 +1,7 @@
+.section.banner {
+    background-image: url('/over-ons/img/banner.jpg');
+}
+
 .content.section .row {
     align-items: flex-start;
 }
