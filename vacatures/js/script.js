@@ -1,35 +1,37 @@
 const projects = [
     {
-        title: "Bouwvakker met ervaring in xyz",
+        title: "All-round afwerking",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/vacatures/template/",
+        link: "/vacatures/all-round-afwerking/",
         tag: "job-3",
     },
     {
-        title: "Bouwvakker met ervaring in xyz",
+        title: "Atelier verantwoordelijke",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/vacatures/template/",
+        link: "/vacatures/atelier-verantwoordelijke/",
         tag: "job-2",
     },
     {
-        title: "Bouwvakker met ervaring in xyz",
+        title: "Calculator schrijnwerkerij",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/vacatures/template/",
+        link: "/vacatures/calculator-schrijnwerkerij/",
         tag: "job-3",
     },
     {
-        title: "Bouwvakker met ervaring in xyz",
+        title: "Projectleider bouw",
         img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/vacatures/template/",
+        link: "/vacatures/projectleider-bouw/",
         tag: "job-1",
     },
-    {
-        title: "Bouwvakker met ervaring in xyz",
-        img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-        link: "/vacatures/template/",
-        tag: "job-1",
-    },
+    // {
+    //     title: "Bouwvakker met ervaring in xyz",
+    //     img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
+    //     link: "/vacatures/template/",
+    //     tag: "job-1",
+    // },
 ];
+
+// <span class="tag">${item.tag}</span> | 
 
 function createCards(e) {
     const target = document.querySelector(".projects-wrapper");
@@ -42,7 +44,7 @@ function createCards(e) {
                 </div>
                 <div class="content">
                     <p class="heading">
-                        <span class="tag">${item.tag}</span> | 
+                        
                         <span class="title">${item.title}</span>
                     </p>
                 </div>

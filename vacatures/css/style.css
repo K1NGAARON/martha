@@ -38,7 +38,8 @@
 }
 
 .projects-wrapper .project .content .heading .title {
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-weight: 700;
 }
 
 .projects-wrapper .project .content .heading {
