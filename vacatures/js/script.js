@@ -1,25 +1,25 @@
 const projects = [
     {
         title: "All-round afwerking",
-        img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
+        img: "/vacatures/img/image-1.jpg",
         link: "/vacatures/all-round-afwerking/",
         tag: "job-3",
     },
     {
         title: "Atelier verantwoordelijke",
-        img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
+        img: "/vacatures/img/image-2.jpg",
         link: "/vacatures/atelier-verantwoordelijke/",
         tag: "job-2",
     },
     {
         title: "Calculator schrijnwerkerij",
-        img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
+        img: "/vacatures/img/image-3.jpg",
         link: "/vacatures/calculator-schrijnwerkerij/",
         tag: "job-3",
     },
     {
         title: "Projectleider bouw",
-        img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
+        img: "/vacatures/img/image-4.jpg",
         link: "/vacatures/projectleider-bouw/",
         tag: "job-1",
     },

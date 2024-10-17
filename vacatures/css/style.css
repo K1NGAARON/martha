@@ -1,3 +1,7 @@
+.section.banner {
+    background-image: url('/vacatures/img/banner.jpg');
+}
+
 .projects-wrapper {
     display: flex;
     gap: 40px;
