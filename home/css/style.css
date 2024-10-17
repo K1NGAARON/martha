@@ -169,10 +169,11 @@
     transform: translate(-50%, -50%);
 }
 
-.projects-wrapper .item .content h3 {
-    color: var(--primary);
+.projects-wrapper .item .content a {
+    color: var(--white);
     text-align: center;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .projects-wrapper .item .overlay {
