@@ -21,3 +21,18 @@
 .banner.contact .legal .legal-item p {
     color: var(--white);
 }
+
+.socials-wrapper a {
+    color: var(--white);
+}
+
+.social-wrapper .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
