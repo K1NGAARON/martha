@@ -12,7 +12,7 @@ function enableScroll() {
 }
 
 function toggleHeading() {
-    $('h1').stop(true, true).fadeToggle(300); // Toggle fade for the h1 element
+    $('h1').stop(true, true).fadeToggle(300);
 }
 
 function closeMenu(e) {
@@ -21,7 +21,7 @@ function closeMenu(e) {
     $(menuToggle).removeClass('open');
     $(menuContent).removeClass('active');
     $(overlay).removeClass('active');
-    $('.logo').stop(true, true).fadeIn(300); // Ensure fade-in works consistently
+    $('.logo').stop(true, true).fadeIn(300);
     enableScroll();
 }
 
@@ -35,7 +35,7 @@ function openMenu(e) {
         $(menuContent).addClass('active');
         $(overlay).addClass('active');
         $(menuToggle).addClass('open');
-        $('.logo').stop(true, true).fadeOut(300); // Stop ongoing animations and fade out
+        $('.logo').stop(true, true).fadeOut(300);
         disableScroll();
     }
 }
