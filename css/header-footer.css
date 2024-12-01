@@ -278,4 +278,9 @@
     .navigation-box .close {
         font-size: 14px;
     }
+
+    .header #menu-toggle {
+        position: absolute;
+        right: 20px;
+    }
 }

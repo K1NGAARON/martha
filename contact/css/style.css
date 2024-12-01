@@ -36,3 +36,10 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 560px) {
+    .banner.section,
+    .banner.section .row {
+        min-height: 140vh;
+    }
+}
