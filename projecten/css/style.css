@@ -59,6 +59,22 @@
     background-color: var(--black);
 }
 
+.section .row.align-start {
+    align-items: flex-start;
+}
+
+.image-outer-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.image-outer-wrapper .image-wrapper {
+    flex: 1 0 40%;
+    display: flex;
+}
+
 @media (max-width: 560px) {
     .projects-wrapper .project {
         flex: 1 0 45%;
