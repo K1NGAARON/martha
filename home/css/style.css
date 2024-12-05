@@ -356,6 +356,18 @@
     margin-top: 40px;
 }
 
+.why .container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.why .container p {
+    text-align: left;
+    width: 100%;
+}
+
+
 @media (max-width: 560px) {
     .banner.section,
     .banner.section .row {
