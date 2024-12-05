@@ -379,6 +379,10 @@
         width: 100%;
     }
 
+    .why .container {
+        width: 100%;
+    }
+
     .animated-wrapper .item {
         flex: 1 0 100%;
     }
