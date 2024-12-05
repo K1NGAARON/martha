@@ -2,6 +2,11 @@
     align-items: flex-start;
 }
 
+.content h2,
+.content p {
+    width: 60%;
+}
+
 .image-outer-wrapper {
     width: 100%;
     display: flex;
@@ -12,4 +17,11 @@
 .image-outer-wrapper .image-wrapper {
     flex: 1 0 40%;
     display: flex;
+}
+
+@media (max-width: 560px) {
+    .content h2,
+    .content p {
+        width: 100%;
+    }
 }
