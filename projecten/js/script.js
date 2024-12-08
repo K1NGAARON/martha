@@ -19,7 +19,7 @@ const projects = [
     },
     {
         title: "Haantjeslei Antwerpen",
-        img: "/projecten/haantjeslei-116-antwerpen/img.banner.jpg",
+        img: "/projecten/haantjeslei-116-antwerpen/img/banner.jpg",
         link: "/projecten/haantjeslei-116-antwerpen/",
         tag: "Totaalrenovatie",
     },
