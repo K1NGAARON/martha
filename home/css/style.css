@@ -19,7 +19,11 @@
 .banner .row {
     color: var(--white);
     z-index: 10;
-    height: 90vh;
+    height: 100vh;
+}
+
+.banner .row h1 {
+    padding-bottom: 30px;
 }
 
 .banner.section .row.flex-col.center {

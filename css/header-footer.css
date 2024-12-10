@@ -34,7 +34,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 100px;
+    width: 150px;
 }
 
 .footer .logo {
@@ -251,9 +251,12 @@
 }
 
 @media (max-width: 760px) {
-    .header .logo,
+    .header .logo {
+        width: 100px;
+    }
+
     .footer .logo {
-        width: 65px;
+        width: 150px;
     }
 
     .header .nav-logo {
