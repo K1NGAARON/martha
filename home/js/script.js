@@ -1,9 +1,15 @@
-document.addEventListener( 'DOMContentLoaded', function() {
-    new Splide( '#image-carousel', {
-        heightRatio: 0.5,
-        type: 'loop',
+document.addEventListener('DOMContentLoaded', function() {
+    new Splide('#image-carousel', {
+      heightRatio: 0.5,
+      type: 'loop',
+      autoplay: true,
+      interval: 3000,
+      pauseOnHover: true,
+      autoscroll: {
+        speed: 3,
+      },
     }).mount();
-});
+  });
 
 const images = [
     '/home/img/banner-1.jpg',
