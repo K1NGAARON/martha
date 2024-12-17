@@ -14,7 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
 const images = [
     '/home/img/banner-1.jpg',
     '/home/img/banner-2.jpg',
-    '/home/img/banner-3.jpg'
+    '/home/img/banner-3.jpg',
+    '/home/img/banner-4.jpg',
+    '/home/img/banner-5.jpg',
+    '/home/img/banner-6.jpg',
+    '/home/img/banner-7.jpg',
+    '/home/img/banner-8.jpg'
 ];
 
 function randomizeBackground() {
