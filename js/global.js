@@ -94,6 +94,32 @@ $(window).scroll(function () {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollDownButton = document.querySelector(".scroll-down");
+
+    if(!scrollDownButton) {
+        return;
+    }
+
+    else {
+        scrollDownButton.addEventListener("click", function() {
+            const sections = document.querySelectorAll(".section");
+    
+            const currentScroll = window.scrollY;
+    
+            for (const section of sections) {
+                if (section.offsetTop > currentScroll) {
+                    section.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+                    break;
+                }
+            }
+        });
+    } 
+});
+
 const cookieBanner = document.querySelector(".cookie-banner-wrapper");
 const cookiesAccepted = document.querySelector("#accept-cookies");
 const blackOverlay = document.querySelector("#overlay");
