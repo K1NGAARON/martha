@@ -617,6 +617,14 @@ img:not(.logo) {
     p.width-60 {
         width: 100%;
     }
+
+    .scroll-down {
+        display: none;
+    }
+
+    .section .row.reverse-sm {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 1000px) {
