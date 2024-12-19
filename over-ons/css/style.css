@@ -13,9 +13,13 @@
     flex-flow: row wrap;
 }
 
-.image-outer-wrapper .image-wrapper {
+.image-wrapper {
     flex: 1 0 40%;
     display: flex;
+}
+
+.image-outer-wrapper.team-wrapper .image-wrapper {
+    flex: 1 0 20%;
 }
 
 .gallery-wrapper {
@@ -32,4 +36,9 @@
 
 .gallery-wrapper .image-wrapper.large {
     flex: 1 0 60%;
+}
+
+.section .team-img {
+    width: 60%;
+    margin: 0 auto;
 }
