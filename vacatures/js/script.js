@@ -5,33 +5,19 @@ const projects = [
         link: "/vacatures/all-round-afwerking/",
         tag: "job-3",
     },
-    // {
-    //     title: "Atelier verantwoordelijke",
-    //     img: "/vacatures/img/image-2.jpg",
-    //     link: "/vacatures/atelier-verantwoordelijke/",
-    //     tag: "job-2",
-    // },
-    // {
-    //     title: "Calculator schrijnwerkerij",
-    //     img: "/vacatures/img/image-3.jpg",
-    //     link: "/vacatures/calculator-schrijnwerkerij/",
-    //     tag: "job-3",
-    // },
     {
         title: "Projectleider bouw",
         img: "/vacatures/img/image-4.jpg",
         link: "/vacatures/projectleider-bouw/",
         tag: "job-1",
     },
-    // {
-    //     title: "Bouwvakker met ervaring in xyz",
-    //     img: "https://www.victorrenoveert.be/files/images/1200x780/victor-woning-moerbeke-waas-aug-2023-01_1.jpg",
-    //     link: "/vacatures/template/",
-    //     tag: "job-1",
-    // },
+    {
+        title: "Medewerker schrijnwerkerij",
+        img: "/vacatures/medewerker-schrijnwerkerij/img/image-3.jpg",
+        link: "/vacatures/medewerker-schrijnwerkerij/",
+        tag: "job-1",
+    },
 ];
-
-// <span class="tag">${item.tag}</span> | 
 
 function createCards(e) {
     const target = document.querySelector(".projects-wrapper");

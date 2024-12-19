@@ -1,3 +1,7 @@
+.section.banner {
+    background-image: url('/vacatures/img/banner.jpg');
+}
+
 .job-offer .row {
     align-items: flex-start;
 }
