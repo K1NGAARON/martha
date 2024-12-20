@@ -43,6 +43,17 @@ function openMenu(e) {
 $(menuToggle).click(openMenu);
 $('#close-icon').click(closeMenu);
 
+document.addEventListener("DOMContentLoaded", function () {
+    const overlay = document.getElementById("loading-overlay");
+
+    if (!overlay) {
+        return;
+    } else {
+        setTimeout(() => {
+            overlay.classList.add("hidden");
+        }, 1500);
+    }
+});
 
 let animationTarget = ".animate .col img, h1.slide-in";
 let firstTime = true;
