@@ -29,3 +29,15 @@ function randomizeBackground() {
 }
 
 window.onload = randomizeBackground;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const overlay = document.getElementById("loading-overlay");
+
+  if (!overlay) {
+      return;
+  } else {
+      setTimeout(() => {
+          overlay.classList.add("hidden");
+      }, 1500);
+  }
+});
