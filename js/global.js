@@ -97,28 +97,44 @@ $(window).scroll(function () {
 document.addEventListener("DOMContentLoaded", function() {
     const scrollDownButton = document.querySelector(".scroll-down");
 
-    if(!scrollDownButton) {
+    if (!scrollDownButton) {
         return;
-    }
-
-    else {
+    } else {
         scrollDownButton.addEventListener("click", function() {
             const sections = document.querySelectorAll(".section");
-    
             const currentScroll = window.scrollY;
-    
+
             for (const section of sections) {
                 if (section.offsetTop > currentScroll) {
-                    section.scrollIntoView({
-                        behavior: "smooth",
-                        block: "start"
-                    });
+                    smoothScrollTo(window.scrollY, section.offsetTop, 400); // Adjust duration here (in ms)
                     break;
                 }
             }
         });
-    } 
+    }
+
+    function smoothScrollTo(start, end, duration) {
+        const distance = end - start;
+        const startTime = performance.now();
+
+        function step(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            window.scrollTo(0, start + distance * easeInOutQuad(progress));
+            
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        }
+
+        function easeInOutQuad(t) {
+            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        }
+
+        window.requestAnimationFrame(step);
+    }
 });
+
 
 const cookieBanner = document.querySelector(".cookie-banner-wrapper");
 const cookiesAccepted = document.querySelector("#accept-cookies");

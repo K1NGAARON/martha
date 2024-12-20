@@ -13,7 +13,7 @@ const projects = [
     },
     {
         title: "Medewerker schrijnwerkerij",
-        img: "/vacatures/medewerker-schrijnwerkerij/img/image-3.jpg",
+        img: "/vacatures/medewerker-schrijnwerkerij/img/banner.jpg",
         link: "/vacatures/medewerker-schrijnwerkerij/",
         tag: "job-1",
     },
