@@ -22,6 +22,10 @@
     margin: 60px auto 0 auto;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 @media (max-width: 560px) {
     .section .gallery-wrapper .item {
         flex: 0 1 45%;
