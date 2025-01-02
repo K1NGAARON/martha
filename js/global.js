@@ -134,6 +134,36 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.querySelector('.lightbox-image');
+    const closeBtn = document.querySelector('.lightbox-close');
+
+    // Exit if the lightbox element is not found
+    if (!lightbox) return;
+
+    // Add click event listeners to all images
+    document.querySelectorAll('.image-wrapper img').forEach((img) => {
+        img.addEventListener('click', () => {
+            lightboxImage.src = img.src; // Set the lightbox image source
+            lightbox.classList.add('visible'); // Show the lightbox
+        });
+    });
+
+    // Close the lightbox when clicking the close button
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            lightbox.classList.remove('visible');
+        });
+    }
+
+    // Close the lightbox when clicking outside the image
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            lightbox.classList.remove('visible');
+        }
+    });
+});
 
 const cookieBanner = document.querySelector(".cookie-banner-wrapper");
 const cookiesAccepted = document.querySelector("#accept-cookies");
