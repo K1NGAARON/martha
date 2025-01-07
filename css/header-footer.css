@@ -56,6 +56,10 @@
     font-weight: 700;
     font-size: 26px;
     margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .header .container {
