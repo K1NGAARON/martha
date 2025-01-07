@@ -18,6 +18,58 @@
     display: flex;
 }
 
+.team-wrapper .item {
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: var(--borderRadius);
+}
+
+.team-wrapper .item .content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-wrapper .item .content h4 {
+    color: var(--white);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.team-wrapper .item .content p {
+    color: var(--white);
+    text-align: center;
+}
+
+.team-wrapper .item .overlay {
+    opacity: 0;
+    background-color: var(--black);
+    transition: var(--transition);
+    border-radius: var(--borderRadius);
+}
+
+.team-wrapper .item:hover .overlay {
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+.team-wrapper .item:hover .content {
+    display: flex;
+}
+
+.team-wrapper .item:hover .content h3 {
+    color: var(--white);
+}
+
 .image-outer-wrapper.team-wrapper .image-wrapper {
     flex: 1 0 20%;
 }
