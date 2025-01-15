@@ -83,12 +83,12 @@ const projects = [
         link: "/projecten/arthur-goemarelei-antwerpen/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "HOF/ 127",
+        img: "/projecten/hof-ter-bekestraat-antwerpen/img/banner.jpg",
+        link: "/projecten/hof-ter-bekestraat-antwerpen/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
