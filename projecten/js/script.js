@@ -89,12 +89,12 @@ const projects = [
         link: "/projecten/hof-ter-bekestraat-antwerpen/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "PROF/ 027",
+        img: "/projecten/prof-piccardlaan-wilrijk/img/banner.jpg",
+        link: "/projecten/prof-piccardlaan-wilrijk/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
