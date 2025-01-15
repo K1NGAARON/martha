@@ -71,12 +71,12 @@ const projects = [
         link: "/projecten/elewijt/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "LUND/ 121",
+        img: "/projecten/lundenstraat-deurne/img/banner.jpg",
+        link: "/projecten/lundenstraat-deurne/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
