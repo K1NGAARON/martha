@@ -95,12 +95,12 @@ const projects = [
         link: "/projecten/prof-piccardlaan-wilrijk/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "BERK/ 032",
+        img: "/projecten/berkenlaan-wilrijk/img/banner.jpg",
+        link: "/projecten/berkenlaan-wilrijk/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
