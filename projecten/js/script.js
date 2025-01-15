@@ -107,12 +107,12 @@ const projects = [
         link: "/projecten/marcottedreef-kappelen/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "BAIL/ 058",
+        img: "/projecten/b-latourlei-brasschaat/img/banner.jpg",
+        link: "/projecten/b-latourlei-brasschaat/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
