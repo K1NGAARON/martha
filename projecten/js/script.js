@@ -119,12 +119,12 @@ const projects = [
         link: "/projecten/sterrelaan-wilrijk/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "DORP/ 157",
+        img: "/projecten/dorpstraat-vremde/img/banner.jpg",
+        link: "/projecten/dorpstraat-vremde/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
