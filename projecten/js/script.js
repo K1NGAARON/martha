@@ -113,12 +113,12 @@ const projects = [
         link: "/projecten/b-latourlei-brasschaat/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "STER/ 127",
+        img: "/projecten/sterrelaan-wilrijk/img/banner.jpg",
+        link: "/projecten/sterrelaan-wilrijk/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
