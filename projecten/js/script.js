@@ -101,12 +101,12 @@ const projects = [
         link: "/projecten/berkenlaan-wilrijk/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "MARC/ 051",
+        img: "/projecten/marcottedreef-kappelen/img/banner.jpg",
+        link: "/projecten/marcottedreef-kappelen/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
