@@ -65,12 +65,12 @@ const projects = [
         link: "/projecten/waterfordstraat-berchem/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "POPP/ 558",
+        img: "/projecten/elewijt/img/banner.jpg",
+        link: "/projecten/elewijt/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
