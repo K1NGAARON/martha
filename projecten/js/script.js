@@ -137,12 +137,12 @@ const projects = [
         link: "/projecten/provinciestraat-antwerpen/",
         tag: "maatmeubiliar",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "TROY/ 046",
+        img: "/projecten/troyentenhoflaan-berchem/img/banner.jpg",
+        link: "/projecten/troyentenhoflaan-berchem/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
