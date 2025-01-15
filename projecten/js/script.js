@@ -77,12 +77,12 @@ const projects = [
         link: "/projecten/lundenstraat-deurne/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "ARTH/ 198",
+        img: "/projecten/arthur-goemarelei-antwerpen/img/banner.jpg",
+        link: "/projecten/arthur-goemarelei-antwerpen/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
