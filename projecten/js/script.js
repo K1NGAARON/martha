@@ -125,12 +125,12 @@ const projects = [
         link: "/projecten/dorpstraat-vremde/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "KONI/ 069",
+        img: "/projecten/konijnenveld-kontich/img/banner.jpg",
+        link: "/projecten/konijnenveld-kontich/",
+        tag: "renovatie",
+    },
     // {
     //     title: "",
     //     img: "",
