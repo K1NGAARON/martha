@@ -131,12 +131,12 @@ const projects = [
         link: "/projecten/konijnenveld-kontich/",
         tag: "renovatie",
     },
-    // {
-    //     title: "",
-    //     img: "",
-    //     link: "/projecten/template/",
-    //     tag: "",
-    // },
+    {
+        title: "PROV/ 160",
+        img: "/projecten/provinciestraat-antwerpen/img/banner.jpg",
+        link: "/projecten/provinciestraat-antwerpen/",
+        tag: "maatmeubiliar",
+    },
     // {
     //     title: "",
     //     img: "",
