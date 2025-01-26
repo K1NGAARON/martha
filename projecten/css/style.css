@@ -1,7 +1,11 @@
+.mb-60 {
+    margin-bottom: 60px;
+}
+
 .projects-wrapper {
     display: flex;
     gap: 40px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .projects-wrapper .project {
@@ -78,5 +82,9 @@
 @media (max-width: 560px) {
     .projects-wrapper .project {
         flex: 1 0 45%;
+    }
+
+    .mb-60 {
+        margin-bottom: 0;
     }
 }

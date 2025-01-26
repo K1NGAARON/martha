@@ -23,7 +23,7 @@
 }
 
 .banner .row h1 {
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .banner.section .row.flex-col.center {
@@ -199,7 +199,6 @@
 .projects-wrapper .item:hover .content h3 {
     color: var(--white);
 }
-
 
 .dots {
     display: flex;

@@ -5,7 +5,7 @@
 .projects-wrapper {
     display: flex;
     gap: 40px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .projects-wrapper .project {
