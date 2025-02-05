@@ -15,7 +15,7 @@ const projects = [
         title: "HAAN/ 062",
         img: "/projecten/haan-062/img/banner.jpg",
         link: "/projecten/haan-062/",
-        tag: ["renovatie"],
+        tag: ["renovatie", "b2b"],
     },
     {
         title: "HAAN/ 226",
@@ -123,7 +123,7 @@ const projects = [
         title: "DORP/ 157",
         img: "/projecten/dorp-157/img/banner.jpg",
         link: "/projecten/dorp-157/",
-        tag: ["renovatie", "maatmeubilair"],
+        tag: ["renovatie", "maatmeubilair", "b2b"],
     },
     {
         title: "KONI/ 069",
@@ -135,7 +135,7 @@ const projects = [
         title: "PROV/ 160",
         img: "/projecten/prov-160/img/banner.jpg",
         link: "/projecten/prov-160/",
-        tag: ["maatmeubiliar"],
+        tag: ["maatmeubiliar", "b2b"],
     },
     {
         title: "TROY/ 046",
