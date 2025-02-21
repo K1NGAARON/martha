@@ -44,14 +44,14 @@
 
 .lightbox-content {
     position: relative;
-    max-width: 500px;
+    max-width: 90%;
     display: flex;
     justify-content: center;
 }
 
 .lightbox-image {
-    max-width: 90%;
-    max-height: 90%;
+    width: auto;
+    max-height: 700px;
     border-radius: 8px;
 }
 
