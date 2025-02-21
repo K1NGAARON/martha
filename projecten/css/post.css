@@ -87,4 +87,17 @@
     .section .gallery-wrapper .item {
         flex: 0 1 45%;
     }
+
+    .lightbox-content {
+        position: relative;
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .lightbox-image {
+        width: auto;
+        max-height: 400px;
+        border-radius: 8px;
+    }
 }
