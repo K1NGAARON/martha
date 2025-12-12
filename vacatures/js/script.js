@@ -5,12 +5,12 @@ const projects = [
         link: "/vacatures/all-round-afwerking/",
         tag: "job-3",
     },
-    {
-        title: "Projectleider bouw",
-        img: "/vacatures/img/image-4.jpg",
-        link: "/vacatures/projectleider-bouw/",
-        tag: "job-1",
-    },
+    // {
+    //     title: "Projectleider bouw",
+    //     img: "/vacatures/img/image-4.jpg",
+    //     link: "/vacatures/projectleider-bouw/",
+    //     tag: "job-1",
+    // },
     {
         title: "Medewerker schrijnwerkerij",
         img: "/vacatures/medewerker-schrijnwerkerij/img/banner.jpg",
